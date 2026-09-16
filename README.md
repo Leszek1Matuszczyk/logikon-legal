@@ -1,14 +1,17 @@
 # LOGIKON — store pages
 
-Public legal site for the Google Play listing. **No game source.**
+Public legal / store site for Google Play. **No game source.**
 
 Publisher: ElEm Software  
 Package: `com.elemsoftware.logikon`
 
-## Live URLs (paste into Play Console)
+## Repositories
 
-- Website: https://leszek1matuszczyk.github.io/
-- Privacy policy: https://leszek1matuszczyk.github.io/privacy.html
-- Support: https://leszek1matuszczyk.github.io/support.html
+| Page | Repository | Live URL |
+|---|---|---|
+| Website / listing | [logikon-legal](https://github.com/Leszek1Matuszczyk/logikon-legal) | https://leszek1matuszczyk.github.io/ |
+| Privacy policy | [logikon-privacy](https://github.com/Leszek1Matuszczyk/logikon-privacy) | https://leszek1matuszczyk.github.io/privacy.html |
+| Support | [logikon-support](https://github.com/Leszek1Matuszczyk/logikon-support) | https://leszek1matuszczyk.github.io/support.html |
+| Data safety notes | this repo | https://leszek1matuszczyk.github.io/data-safety.html |
 
-This repository is the source. The same files are published from GitHub Pages.
+Paste the live HTTPS URLs into Play Console → Store listing and Data safety.
