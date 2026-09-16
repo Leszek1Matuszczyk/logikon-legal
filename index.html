@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="LOGIKON — logic puzzles by ElEm Software. Privacy policy and support for the Google Play listing." />
+  <title>LOGIKON — ElEm Software</title>
+  <link rel="icon" href="logo-mark.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #171f35;
+      --line: rgba(232,184,109,.22);
+      --gold: #e8b86d;
+      --gold-2: #f5d69c;
+      --teal: #5ec4b8;
+      --text: #f4efe4;
+      --muted: #9aa3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Outfit, Segoe UI, system-ui, sans-serif;
+      background: radial-gradient(900px 500px at 10% -10%, #1a2748 0%, var(--bg) 50%), var(--bg);
+      color: var(--text);
+      min-height: 100dvh;
+      line-height: 1.55;
+    }
+    a { color: var(--gold); }
+    header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 22px; }
+    header { padding-top: 40px; display: flex; align-items: center; gap: 14px; }
+    .mark { width: 56px; height: 64px; }
+    header h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 500;
+      letter-spacing: .2em;
+      font-size: 22px;
+    }
+    header p { color: var(--muted); font-size: 13px; }
+    .hero {
+      margin: 28px 0 22px;
+      background: linear-gradient(180deg, #1d2742, #141b30);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px 24px;
+    }
+    .hero h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .kicker { letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-size: 11px; margin-bottom: 10px; }
+    .hero p { color: var(--muted); }
+    ul.feats { margin: 16px 0 0 18px; color: var(--text); }
+    ul.feats li { margin: 6px 0; }
+    .links { display: grid; gap: 10px; margin: 8px 0 32px; }
+    .card {
+      display: block;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .card strong { display: block; color: var(--gold-2); margin-bottom: 4px; }
+    .card span { color: var(--muted); font-size: 14px; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+    .meta code { color: var(--gold-2); }
+    footer { color: var(--muted); font-size: 13px; padding: 8px 22px 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <svg class="mark" viewBox="0 0 200 230" aria-hidden="true">
+      <path fill="#e8b86d" d="M100 10 L186 96 L168 96 L100 28 L32 96 L14 96 Z"/>
+      <path fill="#c48a36" d="M186 96 L100 182 L100 164 L168 96 Z"/>
+      <path fill="#8a6428" d="M14 96 L100 182 L100 164 L32 96 Z"/>
+      <path fill="#0b1020" d="M100 52 L148 100 L100 148 L52 100 Z"/>
+      <path fill="#5ec4b8" d="M58 128 L96 150 L78 198 L28 162 Z"/>
+    </svg>
+    <div>
+      <h1>LOGIKON</h1>
+      <p>Published by ElEm Software</p>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="kicker">Google Play</p>
+      <h2>Think slower.<br>Answer surer.</h2>
+      <p>LOGIKON is a logic-puzzle game. 320 campaign puzzles, a daily challenge, and an optional timer. No account. Progress stays on the device.</p>
+      <ul class="feats">
+        <li>Eight worlds: warm-up, deduction, patterns, truth and lies, relations, numbers, space, mastery</li>
+        <li>Easy 90s · Standard 60s · Hard 30s</li>
+        <li>Optional ads that can be turned off in Settings</li>
+      </ul>
+    </section>
+    <nav class="links" aria-label="Legal">
+      <a class="card" href="privacy.html">
+        <strong>Privacy policy</strong>
+        <span>Required URL for Play Console → Store listing and Data safety.</span>
+      </a>
+      <a class="card" href="support.html">
+        <strong>Support</strong>
+        <span>How to reset progress, turn ads off, and reach ElEm Software.</span>
+      </a>
+      <a class="card" href="data-safety.html">
+        <strong>Data safety summary</strong>
+        <span>What to tick in the Play Data safety form.</span>
+      </a>
+    </nav>
+    <p class="meta">Package id: <code>com.elemsoftware.logikon</code> · Version 1.0 · Category: Games → Puzzle</p>
+  </main>
+  <footer>
+    © 2026 ElEm Software. LOGIKON is not directed at children under 13.
+  </footer>
+</body>
+</html>
